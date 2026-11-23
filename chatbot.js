@@ -9,7 +9,7 @@
   opens your bot's public share link in a panel.
 */
 const CHATLING_ID = "";
-const CHATLING_SHARE_URL = "https://share.chatling.ai/s/46akCER7jGyA33T";
+const CHATLING_SHARE_URL = "https://share.chatling.ai/s/zxrkT2TVqDi8qYM";
 
 (function () {
   if (CHATLING_ID) {
@@ -32,7 +32,7 @@ const CHATLING_SHARE_URL = "https://share.chatling.ai/s/46akCER7jGyA33T";
   const panel = document.createElement("div");
   panel.id = "chat-panel";
   panel.innerHTML =
-    '<header>AI Assistant <button aria-label="Close chat">×</button></header>';
+    '<header>Small Business Marketing Assistant <button aria-label="Close chat">×</button></header>';
 
   let loaded = false;
   function toggle() {
